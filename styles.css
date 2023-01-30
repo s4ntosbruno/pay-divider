@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
-h1,
-h3 {
-  margin: 0;
-}
-
 :root {
-  --primary: #f00;
   --text: #ffefef;
   --background: #100;
 }
@@ -14,14 +8,13 @@ h3 {
 body {
   height: 100vh;
   display: flex;
-  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   justify-content: space-evenly;
   background-color: var(--background);
   color: var(--text);
   font-family: "Roboto Mono", sans-serif;
-  font-size: 2vmin;
+  font-size: 2vmax;
   transition: all 0.5s;
 }
 
